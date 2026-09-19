@@ -9,3 +9,6 @@ __pycache__/
 venv/
 env/
 .venv/
+
+# Dados brutos volumosos (> 100 MB)
+adult24.csv
