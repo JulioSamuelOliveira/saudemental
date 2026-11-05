@@ -12,7 +12,7 @@ arquivos NHIS Adult 2025; há também uma consulta independente à PNS 2019.
 | `01 Preparação dos dados/` | Dados brutos, selecionados e limpos do NHIS Adult 2025; notebooks de seleção, substituição de valores, tratamento de ruído e verificação de duplicatas. Inclui também um CSV processado e um script de consulta à PNS. |
 | `02 Análise exploratória/` | Análises exploratórias, estatísticas com SciPy e análise de redundância. |
 | `03 Modelos supervisionados/` | Estudos de Random Forest, XGBoost, SVM e KNN. Os notebooks usam a base limpa centralizada em `01 Preparação dos dados/dados/limpos/`. |
-| `04 Modelos não supervisionados/` | Preparação e clusterização hierárquica, K-means e K-modes, com os dados derivados da clusterização junto ao fluxo hierárquico. |
+| `04 Modelos não supervisionados/` | Preparação e clusterização hierárquica, K-means e K-modes, com os dados derivados da clusterização junto ao fluxo hierárquico. O notebook `09_perfis_kmodes_hac_2025.ipynb`, na raiz da pasta, refaz a análise com poucas variáveis em dois blocos temáticos e compara K-modes e HAC. |
 | `repositorio imagens/` | Figuras exportadas pelos notebooks visuais, organizadas pela mesma área e pelo notebook que as gerou. |
 | `05 Apresentação/` | Espaço reservado para apresentações. |
 | `06 Material de referência/` | Artigo em PDF e planilhas de correlações usadas como material de apoio. |
